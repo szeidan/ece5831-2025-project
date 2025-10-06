@@ -1,7 +1,7 @@
 import numpy as np
-from three_layer_mlp import ThreeLayerMLP
+from MultilayerPerceptron import MultilayerPerceptron
 
-mlp = ThreeLayerMLP()
+mlp = MultilayerPerceptron()
 x = np.array([1.0, 0.5])
 print(f'Input to the MLP = {x}')
 y = mlp.forward(x)

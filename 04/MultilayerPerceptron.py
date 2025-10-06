@@ -1,6 +1,6 @@
 import numpy as np
 
-class ThreeLayerMLP:
+class MultilayerPerceptron:
     def __init__(self):
         # Initialize weights and biases for each layer
         self.w1 = np.array([[1, 3, 5], [2, 4, 6]])
@@ -32,4 +32,4 @@ class ThreeLayerMLP:
 
 
 if __name__ == "__main__":
-    print("ThreeLayerMLP Example by Sobhi Zeidan")
+    print("MultilayerPerceptron Example by Sobhi Zeidan")
