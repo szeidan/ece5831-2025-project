@@ -17,7 +17,7 @@ class_names = open("model/labels.txt", "r").readlines()
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 # Replace this with the path to your image
-image = Image.open("images/scissors.jpg").convert("RGB")
+image = Image.open("images/rock.jpg").convert("RGB")
 
 
 # resizing the image to be at least 224x224 and then cropping from the center
