@@ -8,6 +8,20 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore trained Keras models
+10/*.keras
+*.keras
+# models
+models/
+# logs
+logs/
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+*.bmp
 # Distribution / packaging
 .Python
 build/
