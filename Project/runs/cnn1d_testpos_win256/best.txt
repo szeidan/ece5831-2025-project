@@ -1,0 +1,1 @@
+best AP=0.9165 epoch=10
